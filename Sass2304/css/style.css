@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: violet;
+  text-align: right;
+}
+header p {
+  color: black;
+}
+header nav {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+header nav p {
+  color: red;
+}
+header nav a {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: x-large;
+  text-decoration: none;
+}
+header nav a:hover {
+  color: black;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+main .card {
+  width: 300px;
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin-top: 3px;
+  transition: box-shadow 0 0.3px ease-in-out;
+}
+main .card:hover {
+  box-shadow: 0 8px 16px;
+}
+main .card img {
+  width: 100%;
+  height: fit-content;
+}
+
+footer {
+  background-color: violet;
+  text-align: right;
+}
+footer p {
+  color: black;
+}
+footer nav {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+footer nav p {
+  color: red;
+}
+footer nav a {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: x-large;
+  text-decoration: none;
+}
+footer nav a:hover {
+  color: black;
+}
+
+/*# sourceMappingURL=style.css.map */
